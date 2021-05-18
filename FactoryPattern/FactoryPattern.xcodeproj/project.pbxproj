@@ -16,13 +16,23 @@
 		1D8EA10F2652E96300AFA77B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EA10D2652E96300AFA77B /* LaunchScreen.storyboard */; };
 		1D8EA11A2652E96300AFA77B /* FactoryPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1192652E96300AFA77B /* FactoryPatternTests.swift */; };
 		1D8EA1252652E96400AFA77B /* FactoryPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1242652E96400AFA77B /* FactoryPatternUITests.swift */; };
-		1DFD56162653F2F000BFED96 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56152653F2F000BFED96 /* AbstractFactory.swift */; };
+		1DFD56162653F2F000BFED96 /* AbstractFactoryConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56152653F2F000BFED96 /* AbstractFactoryConcept.swift */; };
 		1DFD56182654008700BFED96 /* AboboraFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56172654008700BFED96 /* AboboraFactory.swift */; };
 		1DFD561A265400B000BFED96 /* AboboraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD5619265400B000BFED96 /* AboboraViewController.swift */; };
 		1DFD561C265400BC00BFED96 /* AboboraInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD561B265400BC00BFED96 /* AboboraInteractor.swift */; };
 		1DFD561E265400C800BFED96 /* AboboraPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD561D265400C800BFED96 /* AboboraPresenter.swift */; };
 		1DFD5620265400D200BFED96 /* AboboraCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD561F265400D200BFED96 /* AboboraCoordinator.swift */; };
 		1DFD562226540D9600BFED96 /* AboboraPureInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD562126540D9600BFED96 /* AboboraPureInteractor.swift */; };
+		1DFD562A2654222D00BFED96 /* CadeiraFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56292654222D00BFED96 /* CadeiraFactory.swift */; };
+		1DFD562C2654223900BFED96 /* MesaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD562B2654223900BFED96 /* MesaFactory.swift */; };
+		1DFD562E2654225000BFED96 /* MovelFactoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD562D2654225000BFED96 /* MovelFactoring.swift */; };
+		1DFD56302654247B00BFED96 /* Movel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD562F2654247B00BFED96 /* Movel.swift */; };
+		1DFD56322654248800BFED96 /* Mesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56312654248800BFED96 /* Mesa.swift */; };
+		1DFD56342654249A00BFED96 /* Cadeira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56332654249A00BFED96 /* Cadeira.swift */; };
+		1DFD5636265424B800BFED96 /* EspecificacoesTecnica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD5635265424B800BFED96 /* EspecificacoesTecnica.swift */; };
+		1DFD5638265424C600BFED96 /* EspecificacoesTecnicaInterno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD5637265424C600BFED96 /* EspecificacoesTecnicaInterno.swift */; };
+		1DFD563C265424FD00BFED96 /* EspecificacoesTecnicaExterno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD563B265424FD00BFED96 /* EspecificacoesTecnicaExterno.swift */; };
+		1DFD563E2654287E00BFED96 /* CamaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD563D2654287E00BFED96 /* CamaFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,13 +68,23 @@
 		1D8EA1202652E96400AFA77B /* FactoryPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8EA1242652E96400AFA77B /* FactoryPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPatternUITests.swift; sourceTree = "<group>"; };
 		1D8EA1262652E96400AFA77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DFD56152653F2F000BFED96 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		1DFD56152653F2F000BFED96 /* AbstractFactoryConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryConcept.swift; sourceTree = "<group>"; };
 		1DFD56172654008700BFED96 /* AboboraFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraFactory.swift; sourceTree = "<group>"; };
 		1DFD5619265400B000BFED96 /* AboboraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraViewController.swift; sourceTree = "<group>"; };
 		1DFD561B265400BC00BFED96 /* AboboraInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraInteractor.swift; sourceTree = "<group>"; };
 		1DFD561D265400C800BFED96 /* AboboraPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraPresenter.swift; sourceTree = "<group>"; };
 		1DFD561F265400D200BFED96 /* AboboraCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraCoordinator.swift; sourceTree = "<group>"; };
 		1DFD562126540D9600BFED96 /* AboboraPureInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraPureInteractor.swift; sourceTree = "<group>"; };
+		1DFD56292654222D00BFED96 /* CadeiraFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadeiraFactory.swift; sourceTree = "<group>"; };
+		1DFD562B2654223900BFED96 /* MesaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesaFactory.swift; sourceTree = "<group>"; };
+		1DFD562D2654225000BFED96 /* MovelFactoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovelFactoring.swift; sourceTree = "<group>"; };
+		1DFD562F2654247B00BFED96 /* Movel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movel.swift; sourceTree = "<group>"; };
+		1DFD56312654248800BFED96 /* Mesa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesa.swift; sourceTree = "<group>"; };
+		1DFD56332654249A00BFED96 /* Cadeira.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadeira.swift; sourceTree = "<group>"; };
+		1DFD5635265424B800BFED96 /* EspecificacoesTecnica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspecificacoesTecnica.swift; sourceTree = "<group>"; };
+		1DFD5637265424C600BFED96 /* EspecificacoesTecnicaInterno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspecificacoesTecnicaInterno.swift; sourceTree = "<group>"; };
+		1DFD563B265424FD00BFED96 /* EspecificacoesTecnicaExterno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspecificacoesTecnicaExterno.swift; sourceTree = "<group>"; };
+		1DFD563D2654287E00BFED96 /* CamaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +169,7 @@
 		1D8EA1322652E9C200AFA77B /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				1DFD562526540EA600BFED96 /* Abobora */,
 				1DCB5DE92653DF3C00658807 /* FactoryMethod */,
 				1DCB5DE82653DF3200658807 /* AbstractFactory */,
 			);
@@ -158,8 +179,8 @@
 		1DCB5DE82653DF3200658807 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				1DFD56152653F2F000BFED96 /* AbstractFactory.swift */,
-				1DFD562526540EA600BFED96 /* Abobora */,
+				1DFD56152653F2F000BFED96 /* AbstractFactoryConcept.swift */,
+				1DFD56282654221800BFED96 /* Movel */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -167,6 +188,7 @@
 		1DCB5DE92653DF3C00658807 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				1DFD563D2654287E00BFED96 /* CamaFactory.swift */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -198,6 +220,38 @@
 				1DFD562126540D9600BFED96 /* AboboraPureInteractor.swift */,
 			);
 			path = AboboraPure;
+			sourceTree = "<group>";
+		};
+		1DFD56282654221800BFED96 /* Movel */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD563A265424E400BFED96 /* Especificacoes */,
+				1DFD5639265424D900BFED96 /* Moveis */,
+				1DFD56292654222D00BFED96 /* CadeiraFactory.swift */,
+				1DFD562B2654223900BFED96 /* MesaFactory.swift */,
+				1DFD562D2654225000BFED96 /* MovelFactoring.swift */,
+			);
+			path = Movel;
+			sourceTree = "<group>";
+		};
+		1DFD5639265424D900BFED96 /* Moveis */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD562F2654247B00BFED96 /* Movel.swift */,
+				1DFD56312654248800BFED96 /* Mesa.swift */,
+				1DFD56332654249A00BFED96 /* Cadeira.swift */,
+			);
+			path = Moveis;
+			sourceTree = "<group>";
+		};
+		1DFD563A265424E400BFED96 /* Especificacoes */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD5635265424B800BFED96 /* EspecificacoesTecnica.swift */,
+				1DFD5637265424C600BFED96 /* EspecificacoesTecnicaInterno.swift */,
+				1DFD563B265424FD00BFED96 /* EspecificacoesTecnicaExterno.swift */,
+			);
+			path = Especificacoes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,15 +384,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFD562A2654222D00BFED96 /* CadeiraFactory.swift in Sources */,
 				1D8EA1042652E96200AFA77B /* ViewController.swift in Sources */,
 				1D8EA10A2652E96300AFA77B /* FactoryPattern.xcdatamodeld in Sources */,
 				1DFD561E265400C800BFED96 /* AboboraPresenter.swift in Sources */,
+				1DFD5638265424C600BFED96 /* EspecificacoesTecnicaInterno.swift in Sources */,
+				1DFD563E2654287E00BFED96 /* CamaFactory.swift in Sources */,
 				1DFD5620265400D200BFED96 /* AboboraCoordinator.swift in Sources */,
-				1DFD56162653F2F000BFED96 /* AbstractFactory.swift in Sources */,
+				1DFD56162653F2F000BFED96 /* AbstractFactoryConcept.swift in Sources */,
 				1DFD561C265400BC00BFED96 /* AboboraInteractor.swift in Sources */,
+				1DFD5636265424B800BFED96 /* EspecificacoesTecnica.swift in Sources */,
+				1DFD562E2654225000BFED96 /* MovelFactoring.swift in Sources */,
 				1DFD56182654008700BFED96 /* AboboraFactory.swift in Sources */,
+				1DFD563C265424FD00BFED96 /* EspecificacoesTecnicaExterno.swift in Sources */,
 				1DFD562226540D9600BFED96 /* AboboraPureInteractor.swift in Sources */,
+				1DFD562C2654223900BFED96 /* MesaFactory.swift in Sources */,
+				1DFD56322654248800BFED96 /* Mesa.swift in Sources */,
 				1D8EA1002652E96200AFA77B /* AppDelegate.swift in Sources */,
+				1DFD56302654247B00BFED96 /* Movel.swift in Sources */,
+				1DFD56342654249A00BFED96 /* Cadeira.swift in Sources */,
 				1DFD561A265400B000BFED96 /* AboboraViewController.swift in Sources */,
 				1D8EA1022652E96200AFA77B /* SceneDelegate.swift in Sources */,
 			);
