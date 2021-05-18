@@ -16,6 +16,13 @@
 		1D8EA10F2652E96300AFA77B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EA10D2652E96300AFA77B /* LaunchScreen.storyboard */; };
 		1D8EA11A2652E96300AFA77B /* FactoryPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1192652E96300AFA77B /* FactoryPatternTests.swift */; };
 		1D8EA1252652E96400AFA77B /* FactoryPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8EA1242652E96400AFA77B /* FactoryPatternUITests.swift */; };
+		1DFD56162653F2F000BFED96 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56152653F2F000BFED96 /* AbstractFactory.swift */; };
+		1DFD56182654008700BFED96 /* AboboraFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD56172654008700BFED96 /* AboboraFactory.swift */; };
+		1DFD561A265400B000BFED96 /* AboboraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD5619265400B000BFED96 /* AboboraViewController.swift */; };
+		1DFD561C265400BC00BFED96 /* AboboraInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD561B265400BC00BFED96 /* AboboraInteractor.swift */; };
+		1DFD561E265400C800BFED96 /* AboboraPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD561D265400C800BFED96 /* AboboraPresenter.swift */; };
+		1DFD5620265400D200BFED96 /* AboboraCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD561F265400D200BFED96 /* AboboraCoordinator.swift */; };
+		1DFD562226540D9600BFED96 /* AboboraPureInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD562126540D9600BFED96 /* AboboraPureInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		1D8EA1202652E96400AFA77B /* FactoryPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8EA1242652E96400AFA77B /* FactoryPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPatternUITests.swift; sourceTree = "<group>"; };
 		1D8EA1262652E96400AFA77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DFD56152653F2F000BFED96 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		1DFD56172654008700BFED96 /* AboboraFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraFactory.swift; sourceTree = "<group>"; };
+		1DFD5619265400B000BFED96 /* AboboraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraViewController.swift; sourceTree = "<group>"; };
+		1DFD561B265400BC00BFED96 /* AboboraInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraInteractor.swift; sourceTree = "<group>"; };
+		1DFD561D265400C800BFED96 /* AboboraPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraPresenter.swift; sourceTree = "<group>"; };
+		1DFD561F265400D200BFED96 /* AboboraCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraCoordinator.swift; sourceTree = "<group>"; };
+		1DFD562126540D9600BFED96 /* AboboraPureInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboboraPureInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		1D8EA0FE2652E96200AFA77B /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
+				1D8EA1322652E9C200AFA77B /* Study */,
 				1D8EA0FF2652E96200AFA77B /* AppDelegate.swift */,
 				1D8EA1012652E96200AFA77B /* SceneDelegate.swift */,
 				1D8EA1032652E96200AFA77B /* ViewController.swift */,
@@ -129,6 +144,60 @@
 				1D8EA1262652E96400AFA77B /* Info.plist */,
 			);
 			path = FactoryPatternUITests;
+			sourceTree = "<group>";
+		};
+		1D8EA1322652E9C200AFA77B /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				1DCB5DE92653DF3C00658807 /* FactoryMethod */,
+				1DCB5DE82653DF3200658807 /* AbstractFactory */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		1DCB5DE82653DF3200658807 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD56152653F2F000BFED96 /* AbstractFactory.swift */,
+				1DFD562526540EA600BFED96 /* Abobora */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		1DCB5DE92653DF3C00658807 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		1DFD562526540EA600BFED96 /* Abobora */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD56172654008700BFED96 /* AboboraFactory.swift */,
+				1DFD5619265400B000BFED96 /* AboboraViewController.swift */,
+				1DFD562726540EB600BFED96 /* AboboraPure */,
+				1DFD562626540EAD00BFED96 /* AboboraNormal */,
+			);
+			path = Abobora;
+			sourceTree = "<group>";
+		};
+		1DFD562626540EAD00BFED96 /* AboboraNormal */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD561B265400BC00BFED96 /* AboboraInteractor.swift */,
+				1DFD561D265400C800BFED96 /* AboboraPresenter.swift */,
+				1DFD561F265400D200BFED96 /* AboboraCoordinator.swift */,
+			);
+			path = AboboraNormal;
+			sourceTree = "<group>";
+		};
+		1DFD562726540EB600BFED96 /* AboboraPure */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD562126540D9600BFED96 /* AboboraPureInteractor.swift */,
+			);
+			path = AboboraPure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +332,14 @@
 			files = (
 				1D8EA1042652E96200AFA77B /* ViewController.swift in Sources */,
 				1D8EA10A2652E96300AFA77B /* FactoryPattern.xcdatamodeld in Sources */,
+				1DFD561E265400C800BFED96 /* AboboraPresenter.swift in Sources */,
+				1DFD5620265400D200BFED96 /* AboboraCoordinator.swift in Sources */,
+				1DFD56162653F2F000BFED96 /* AbstractFactory.swift in Sources */,
+				1DFD561C265400BC00BFED96 /* AboboraInteractor.swift in Sources */,
+				1DFD56182654008700BFED96 /* AboboraFactory.swift in Sources */,
+				1DFD562226540D9600BFED96 /* AboboraPureInteractor.swift in Sources */,
 				1D8EA1002652E96200AFA77B /* AppDelegate.swift in Sources */,
+				1DFD561A265400B000BFED96 /* AboboraViewController.swift in Sources */,
 				1D8EA1022652E96200AFA77B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
